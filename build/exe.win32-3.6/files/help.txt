@@ -1,0 +1,11 @@
+Step 1
+Firstly, you need to define function that depends on the argument x and its domain. You can see the information about supported operators by clicking the ‘i’ button. Also you need to choose model of fuzzy inference system, Mamdani or Takagi-Sugeno-Kang (zero and first orders are supported). If you change a function expression or a domain at the first step, all membership functions, rules and previous approximation results are cleared.
+
+Step 2
+At this step you should define membership functions for input and output (in Mamdani model) values with a name and four parameters (trapezoidal and triangular forms are supported). As you add a new function, it is displayed in the list and its graph is plotted. You can edit added functions: delete them or change their name or parameters.
+
+Step 3
+At the third stage you need to define rules for approximation. Once you add a rule, its image is shown on the coordinate plane. For Mamdani model you should choose membership functions' names for input and output. For Sugeno model input membership function's name and constants a and b for output a*x+b function are required. You can also edit and delete any added rule.
+
+Step 4
+Finally, you should choose operators and defuzzification method for Mamdani model. For Sugeno model operators are predefined and defuzzification method is not required. Besides you should choose the type of input to approximate function: crisp value, fuzzy value with a linguistic modifier or interval of crisp values are available. After ‘approximate’ button is clicked, a progress dialog is shown. As approximation process is done, the predicted graph is plotted, and approximation errors are displayed. Next errors are calculated: mean absolute error (MAE), root mean squared error (RMSE) and symmetric mean absolute percentage error (SMAPE).

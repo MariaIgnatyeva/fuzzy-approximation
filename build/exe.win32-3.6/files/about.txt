@@ -1,0 +1,6 @@
+The Program for 2D-function Approximation Using Fuzzy Rule-Base
+
+Developer: Maria Ignatyeva
+E-mail: ignatjeva.masha@yandex.ru
+
+Higher School of Economics, 2018
